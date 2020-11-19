@@ -1,0 +1,64 @@
+:root {
+    --hero-overlay__bg: rgba(65, 65, 65, 0.65);
+    --here-padding-base: 15px;
+    --hero-padding-lg: 30px;
+    --font-size-base-mobile: 20px;
+    --hero-color-white: #fff;
+    --hero-color-black: #000;
+}
+
+.heroBlock {
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    .heroBlock {
+        margin: 0 1.5rem;
+    }
+}
+.heroBlockFigure {
+    margin: 0;
+}
+
+.heroBlockImage {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.heroBlockTape {
+    align-items: center;
+    background-color: var(--hero-overlay__bg);
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    padding: var(--here-padding-base);
+    position: absolute;
+    right: 0;
+}
+
+.heroBlockHeading {
+    color: var(--hero-color-white);
+    margin: 0;
+    font-size: var(--font-size-base-mobile);
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.heroBlockAction {
+    background-color: var(--hero-color-white);
+    color: var(--hero-color-black);
+    font-size: var(--font-size-base-mobile);
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heroBlockAction:hover {
+    text-decoration: none;
+}
+
+.heroBlockAction:focus {
+    text-decoration: none;
+}

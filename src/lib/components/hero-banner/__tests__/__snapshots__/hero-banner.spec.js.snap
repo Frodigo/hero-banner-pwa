@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render hero banner Display hero banner action button 1`] = `
+<a
+  className="heroBlockAction"
+  href="#"
+>
+  Shop now
+</a>
+`;
+
+exports[`Render hero banner Display hero banner figure 1`] = `
+<figure
+  className="heroBlockFigure"
+/>
+`;
+
+exports[`Render hero banner Display hero banner heading 1`] = `
+<h2
+  className="heroBlockHeading"
+>
+  Heading
+</h2>
+`;
+
+exports[`Render hero banner Display hero banner image 1`] = `
+<img
+  alt="figure"
+  className="heroBlockImage"
+  src="#"
+/>
+`;
+
+exports[`Render hero banner Display hero banner on the page 1`] = `
+<div
+  className="heroBlock"
+/>
+`;
+
+exports[`Render hero banner Display hero banner tape 1`] = `
+<section
+  className="heroBlockTape"
+/>
+`;

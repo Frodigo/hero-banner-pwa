@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`factory should render all children content types 1`] = `
+<div>
+  Parent Component
+  <div>
+    <div>
+      Child Component
+    </div>
+    <div>
+      Child Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`factory should render instance of content type 1`] = `
+<div>
+  Test Component
+</div>
+`;
